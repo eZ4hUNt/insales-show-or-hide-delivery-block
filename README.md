@@ -3,8 +3,8 @@
 
 Добавляем скрипт в шаблон чекаута:
 ```
-<script>
-				// Скрываем или показываем блок доставки
+	<script>
+		// Скрываем или показываем блок доставки
                     var city_status ;
                     $('#shipping_address_full_locality_name').on('input keyup', function(e) {
                         city_status = $('.tt-dataset-0').find('.empty-message').html();
@@ -43,7 +43,7 @@
 
                         }
                     });
-</script>
+	</script>
 ```
 
 ## Сам скрипт и пример на GitHub
